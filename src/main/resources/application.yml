@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    include:
+    - jdbc
+      
+server:
+  servlet:
+    encoding:
+      force: false
+      charset: UTF-8
